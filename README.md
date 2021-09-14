@@ -8,13 +8,13 @@
 **低调使用！**
 
 
-## Preinstallation
+## 环境要求
 
 Win/Linux/MacOS都ok。
 
 然后你需要一个**python3**的环境。
 
-## How To Use 
+## 如何使用
 
 ### 前期准备：需要给程序配一下cookie来模拟系统登录
 

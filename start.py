@@ -1,15 +1,15 @@
 import os
 import time
 
-# 把这里改成Request Payload中的内容
+# 把这里改成你的Request Payload中的内容!!!
 request_data = '''
     {"xkcscode7":"0","kkdwbh":"208102","xkfl":[],"tzdlb_name":"正常","xkfs_name":"4","kkdw_name":"理学院-物理学系","skls_name":{"jczy010id":"21019502","jczy013id":"2021-2022-1","queryFlag":"2","kkgl004id":"00410197379","name":["夏天龙"]},"jczy007ids":null,"jczy003id":"208102","kcbh":"21019502","ktmc_name":"人文物理通识与探索性实验03班","kcxz_name":null,"kcmc_name":"人文物理通识与探索性实验","kcxz":null,"xq_name":"中关村校区中关村校区","id":"00410197379","jczy013id":"2021-2022-1","zxs":"36","zxf":"2","kcdl":"2","kclb":"5","khfs":"1","kkgl00401id":null,"szkclb":null,"falb":"1","xkfsid":"22","xkgl017id":"c13464110000WH","xkgl019id":"c13464db0000WH","isTqxd":"0","xkzy":"","trz":"","tzdlb":"01","jczy010id":"21019502","skfscode":null,"skfs_name":null,"sksj":[{"zc":"1-4,6-12","zcmx":"1,2,3,4,6,7,8,9,10,11,12","kssj":1800,"jssj":2025,"xq":"2","jc":"111213","name":"星期二 11-13节 1-4,6-12周"},{"zc":"3","zcmx":"3","kssj":1800,"jssj":2025,"xq":"7","jc":"111213","name":"星期日 11-13节 3周"}],"xkcscode1":"1","xkcscode23":"0","sfglymkccode":false,"sfglctkccode":false,"kclbMapper":"5","xklbbh":"16","bllsZyId":"10231860","isSxrz":"","language":"zh"}
 '''
-# 把这里改成你的COOKIE
+# 把这里改成你的COOKIE!!!
 cookie_data = '''
     access_token=fohoTM62REmblD3ZioOabg; SESSION=bfc8bfc3-ee24-4377-8d5c-26e7f9f46314; authcode=2020202020; token=
 '''
-# 把这里改成你的TOKEN
+# 把这里改成你的TOKEN!!!
 token_data = '''
     eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2MiOiIyMDIwMjAxNDIxIiwiZXhwIjoxajMxNjU4NDI5LCJpYXQiOjE2MzE2MTUyMjksInNpZCI6ImJmYzhiZmMzLWVlZjYtNDM3Ny04ZDVjLTI2ZTdgOWY0NjMxNCJ9.4uDIO7O3Taa4FFdQJs6hKvYEzePmudwCq0MnNgvIDIo
 '''

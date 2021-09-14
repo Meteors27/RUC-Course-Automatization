@@ -26,7 +26,7 @@ Win/Linux/MacOS都ok。
 
 ![image](figures/p2.png)
 
-先点击右侧Request Payload旁边的view source，把它下面的东西转成字符串。
+先点击右侧Request Payload旁边的view source(见上图中蓝框)，把它下面的东西转成字符串。
 
 然后，复制Cookie, TOKEN, 以及Request Payload中的内容(见上图中的三个红框)。
 

@@ -10,9 +10,7 @@
 
 ## 环境要求
 
-Win/Linux/MacOS都ok。
-
-然后你需要一个**python3**的环境。
+Python3
 
 ## 如何使用
 

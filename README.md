@@ -28,7 +28,7 @@ Win/Linux/MacOS都ok。
 
 先点击右侧Request Payload旁边的view source(见上图中蓝框)，把它下面的东西转成字符串。
 
-然后，复制Cookie, TOKEN, 以及Request Payload中的内容(见上图中的三个红框)。
+然后，把Cookie, TOKEN, 以及Request Payload中的内容复制下来(见上图中的三个红框)。
 
 3. 打开```start.py```。修改代码头部的```request_data```, ```cookie_data```, ```token_data```变量中的内容为你刚才复制的对应内容。
 

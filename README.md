@@ -20,7 +20,7 @@ Win/Linux/MacOS都ok。
 
 1. 在chrome中登录选课系统后，找到你要抢的课。打开chrome控制台（F12），切换至network模式。勾选preserve log按钮。点击“XHR”，这样会把除了XHR请求外的其他请求过滤掉，更加方便我们查看。（见下图红框处）
 
-![image](figures/p1.png)
+![image](figures/p4.png)
 
 2. 点击选课按钮，并确定。控制台中会刷出几个请求。找到以saveStu开头的那个请求，点开，如下图。
 

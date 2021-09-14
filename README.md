@@ -34,7 +34,7 @@ Win/Linux/MacOS都ok。
 
 ### 抢课
 
-```python start.py```
+运行命令: ```python start.py```
 
 当课程没有名额时，会一直输出```eywxt.save.stuLimit.error```字样。
 

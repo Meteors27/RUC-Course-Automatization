@@ -30,7 +30,7 @@ Win/Linux/MacOS都ok。
 
 然后，复制Cookie, TOKEN, 以及Request Payload中的内容(见上图中的三个红框)。
 
-3. 打开```start.py```。修改代码中的```request_data```, ```cookie_data```, ```token_data```为你刚才复制的对应内容。
+3. 打开```start.py```。修改代码头部的```request_data```, ```cookie_data```, ```token_data```为你刚才复制的对应内容。
 
 ### 抢课
 

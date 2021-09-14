@@ -1,2 +1,45 @@
 # fuckxk
-微人大课程中心 自动抢课器 模拟五秒抢一次
+
+微人大课程中心自动抢课器
+
+此程序适用于微人大比手速抢课阶段, 去捡别人退课 或 课程加名额的漏。
+
+**低调使用！**
+
+
+## Preinstallation
+
+Win/Linux/MacOS都ok。
+
+然后你需要一个**python3**的环境。
+
+## How To Use 
+
+### 前期准备：需要给程序配一下cookie来模拟系统登录
+
+1. 在chrome中登录选课系统后，找到你要抢的课。打开chrome控制台（F12），切换至network模式。勾选preserve log按钮。点击“XHR”，这样会把除了XHR请求外的其他请求过滤掉，更加方便我们查看。（见下图红框处）
+
+![image](figures/p1.png)
+
+2. 点击选课按钮，并确定。控制台中会刷出几个请求。找到以saveStu开头的那个请求，点开，如下图。
+
+![image](figures/p1.png)
+
+先点击右侧Request Payload旁边的view source，把它下面的东西转成字符串。
+
+然后，复制Cookie, TOKEN, 以及Request Payload中的内容(见上图中的三个红框)。
+
+3. 打开```start.py```。修改代码中的```request_data```, ```cookie_data```, ```token_data```为你刚才复制的对应内容。
+
+### 抢课
+
+```python start.py```
+
+当课程没有名额时，会一直输出```eywxt.save.stuLimit.error```字样。
+
+接下来你需要耐心等待。等到程序输出````success```字样, 就说明你抢到课了。
+
+## Notes
+
+你的登录Cookie会在每天晚上系统维护时失效。因此，如果你想跨天抢课，需要在第二天系统恢复时重复以上过程，再把程序跑上。
+

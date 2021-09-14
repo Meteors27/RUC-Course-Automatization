@@ -13,9 +13,6 @@ cookie_data = '''
 token_data = '''
     eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2MiOiIyMDIwMjAxNDIxIiwiZXhwIjoxajMxNjU4NDI5LCJpYXQiOjE2MzE2MTUyMjksInNpZCI6ImJmYzhiZmMzLWVlZjYtNDM3Ny04ZDVjLTI2ZTdgOWY0NjMxNCJ9.4uDIO7O3Taa4FFdQJs6hKvYEzePmudwCq0MnNgvIDIo
 '''
-request_data = request_data.strip()
-cookie_data = cookie_data.strip()
-token_data = token_data.strip()
 
 def fuck_xk():
     p_sh = '''
@@ -33,7 +30,7 @@ def fuck_xk():
     --header 'TOKEN: {}' \
     --data-raw '{}' \
     --header 'Cookie: {}' 
-    '''.format(token_data, request_data, cookie_data)
+    '''.format(token_data.strip(), request_data.strip(), cookie_data.strip())
     os.system(p_sh)
 
 def main():

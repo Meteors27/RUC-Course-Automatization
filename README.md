@@ -36,9 +36,9 @@ Win/Linux/MacOS都ok。
 
 运行命令: ```python start.py```
 
-当课程没有名额时，会一直输出```eywxt.save.stuLimit.error```字样。
+当课程没有名额时，程序会一直输出```eywxt.save.stuLimit.error```字样。
 
-接下来你需要耐心等待。等到程序输出````success```字样, 就说明你抢到课了。
+接下来你需要耐心等待。等到程序输出````success```字样, 就说明你抢到课了。(亲测，通识课一般半小时内都能抢到:)
 
 ## Notes
 
